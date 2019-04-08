@@ -1,0 +1,2 @@
+# MSCommonProj
+Generic project framework
