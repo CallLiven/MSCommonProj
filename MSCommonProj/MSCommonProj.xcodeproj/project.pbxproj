@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3345EBF4225C6C9E00C613B3 /* ConstantMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EBF3225C6C9E00C613B3 /* ConstantMacros.m */; };
+		3345EBF7225C6CCE00C613B3 /* NotificationMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EBF6225C6CCE00C613B3 /* NotificationMacros.m */; };
+		3345EBFA225C6CE500C613B3 /* URLMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EBF9225C6CE500C613B3 /* URLMacros.m */; };
 		33A6EF71225B3AF900FD9219 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF70225B3AF900FD9219 /* AppDelegate.m */; };
 		33A6EF74225B3AF900FD9219 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF73225B3AF900FD9219 /* ViewController.m */; };
 		33A6EF77225B3AF900FD9219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A6EF75225B3AF900FD9219 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		33A6EF7F225B3AFA00FD9219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF7E225B3AFA00FD9219 /* main.m */; };
 		33A6EF89225B3AFA00FD9219 /* MSCommonProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF88225B3AFA00FD9219 /* MSCommonProjTests.m */; };
 		33A6EF94225B3AFA00FD9219 /* MSCommonProjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF93225B3AFA00FD9219 /* MSCommonProjUITests.m */; };
+		FC308B5ADF8F41F5A237E5D5 /* libPods-MSCommonProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFD7865B61DE3D556CF7D2C /* libPods-MSCommonProj.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09DE678312A32186E9953F87 /* Pods-MSCommonProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSCommonProj.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSCommonProj/Pods-MSCommonProj.release.xcconfig"; sourceTree = "<group>"; };
+		3345EBF1225C6B7600C613B3 /* EnumMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumMacros.h; sourceTree = "<group>"; };
+		3345EBF2225C6C9E00C613B3 /* ConstantMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantMacros.h; sourceTree = "<group>"; };
+		3345EBF3225C6C9E00C613B3 /* ConstantMacros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstantMacros.m; sourceTree = "<group>"; };
+		3345EBF5225C6CCE00C613B3 /* NotificationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacros.h; sourceTree = "<group>"; };
+		3345EBF6225C6CCE00C613B3 /* NotificationMacros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationMacros.m; sourceTree = "<group>"; };
+		3345EBF8225C6CE500C613B3 /* URLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
+		3345EBF9225C6CE500C613B3 /* URLMacros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLMacros.m; sourceTree = "<group>"; };
+		3345EBFB225C6E4200C613B3 /* AppKeyMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppKeyMacros.h; sourceTree = "<group>"; };
 		33A6EF6C225B3AF900FD9219 /* MSCommonProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSCommonProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A6EF6F225B3AF900FD9219 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33A6EF70225B3AF900FD9219 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,9 @@
 		33A6EF8F225B3AFA00FD9219 /* MSCommonProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSCommonProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A6EF93225B3AFA00FD9219 /* MSCommonProjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCommonProjUITests.m; sourceTree = "<group>"; };
 		33A6EF95225B3AFA00FD9219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A6EFB1225B3E4300FD9219 /* SystemMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemMacros.h; sourceTree = "<group>"; };
+		8CEED07B9F3E886EF5BDA9F5 /* Pods-MSCommonProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSCommonProj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSCommonProj/Pods-MSCommonProj.debug.xcconfig"; sourceTree = "<group>"; };
+		BCFD7865B61DE3D556CF7D2C /* libPods-MSCommonProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSCommonProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC308B5ADF8F41F5A237E5D5 /* libPods-MSCommonProj.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +98,13 @@
 		33A6EF63225B3AF900FD9219 = {
 			isa = PBXGroup;
 			children = (
+				33A6EFA1225B3C5800FD9219 /* Frameworks */,
 				33A6EF6E225B3AF900FD9219 /* MSCommonProj */,
 				33A6EF87225B3AFA00FD9219 /* MSCommonProjTests */,
 				33A6EF92225B3AFA00FD9219 /* MSCommonProjUITests */,
 				33A6EF6D225B3AF900FD9219 /* Products */,
+				A7FBE75A6AB9CDCBA50DD2A6 /* Pods */,
+				D2357F131B991D754E58C9B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +121,17 @@
 		33A6EF6E225B3AF900FD9219 /* MSCommonProj */ = {
 			isa = PBXGroup;
 			children = (
-				33A6EF6F225B3AF900FD9219 /* AppDelegate.h */,
-				33A6EF70225B3AF900FD9219 /* AppDelegate.m */,
 				33A6EF72225B3AF900FD9219 /* ViewController.h */,
 				33A6EF73225B3AF900FD9219 /* ViewController.m */,
-				33A6EF75225B3AF900FD9219 /* Main.storyboard */,
-				33A6EF78225B3AFA00FD9219 /* Assets.xcassets */,
-				33A6EF7A225B3AFA00FD9219 /* LaunchScreen.storyboard */,
+				33A6EFA9225B3CA300FD9219 /* Application */,
+				33A6EFA8225B3C9E00FD9219 /* Base */,
+				33A6EFA7225B3C9500FD9219 /* Sections */,
+				33A6EFA6225B3C8900FD9219 /* Utils */,
+				33A6EFA5225B3C7A00FD9219 /* Macros */,
+				33A6EFA4225B3C7300FD9219 /* HTTP */,
+				33A6EFA3225B3C6C00FD9219 /* Vendor */,
+				33A6EFA2225B3C6300FD9219 /* Source */,
 				33A6EF7D225B3AFA00FD9219 /* Info.plist */,
-				33A6EF7E225B3AFA00FD9219 /* main.m */,
 			);
 			path = MSCommonProj;
 			sourceTree = "<group>";
@@ -132,6 +154,157 @@
 			path = MSCommonProjUITests;
 			sourceTree = "<group>";
 		};
+		33A6EFA1225B3C5800FD9219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		33A6EFA2225B3C6300FD9219 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				33A6EF78225B3AFA00FD9219 /* Assets.xcassets */,
+				33A6EF75225B3AF900FD9219 /* Main.storyboard */,
+				33A6EF7A225B3AFA00FD9219 /* LaunchScreen.storyboard */,
+				33A6EF7E225B3AFA00FD9219 /* main.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		33A6EFA3225B3C6C00FD9219 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		33A6EFA4225B3C7300FD9219 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		33A6EFA5225B3C7A00FD9219 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				33A6EFB1225B3E4300FD9219 /* SystemMacros.h */,
+				3345EBF1225C6B7600C613B3 /* EnumMacros.h */,
+				3345EBFB225C6E4200C613B3 /* AppKeyMacros.h */,
+				3345EBF2225C6C9E00C613B3 /* ConstantMacros.h */,
+				3345EBF3225C6C9E00C613B3 /* ConstantMacros.m */,
+				3345EBF5225C6CCE00C613B3 /* NotificationMacros.h */,
+				3345EBF6225C6CCE00C613B3 /* NotificationMacros.m */,
+				3345EBF8225C6CE500C613B3 /* URLMacros.h */,
+				3345EBF9225C6CE500C613B3 /* URLMacros.m */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		33A6EFA6225B3C8900FD9219 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33A6EFAC225B3CD200FD9219 /* Tools */,
+				33A6EFAB225B3CC700FD9219 /* Protocol */,
+				33A6EFAA225B3CC000FD9219 /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		33A6EFA7225B3C9500FD9219 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		33A6EFA8225B3C9E00FD9219 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				33A6EFB0225B3D4C00FD9219 /* Model */,
+				33A6EFAF225B3D4500FD9219 /* View */,
+				33A6EFAE225B3D3F00FD9219 /* ViewModel */,
+				33A6EFAD225B3D3300FD9219 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		33A6EFA9225B3CA300FD9219 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				33A6EF6F225B3AF900FD9219 /* AppDelegate.h */,
+				33A6EF70225B3AF900FD9219 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		33A6EFAA225B3CC000FD9219 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		33A6EFAB225B3CC700FD9219 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		33A6EFAC225B3CD200FD9219 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		33A6EFAD225B3D3300FD9219 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33A6EFAE225B3D3F00FD9219 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33A6EFAF225B3D4500FD9219 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33A6EFB0225B3D4C00FD9219 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7FBE75A6AB9CDCBA50DD2A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CEED07B9F3E886EF5BDA9F5 /* Pods-MSCommonProj.debug.xcconfig */,
+				09DE678312A32186E9953F87 /* Pods-MSCommonProj.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2357F131B991D754E58C9B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCFD7865B61DE3D556CF7D2C /* libPods-MSCommonProj.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33A6EF98225B3AFA00FD9219 /* Build configuration list for PBXNativeTarget "MSCommonProj" */;
 			buildPhases = (
+				BDB92CF4FB96D7576250C826 /* [CP] Check Pods Manifest.lock */,
 				33A6EF68225B3AF900FD9219 /* Sources */,
 				33A6EF69225B3AF900FD9219 /* Frameworks */,
 				33A6EF6A225B3AF900FD9219 /* Resources */,
@@ -257,6 +431,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BDB92CF4FB96D7576250C826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSCommonProj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33A6EF68225B3AF900FD9219 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +463,10 @@
 			files = (
 				33A6EF74225B3AF900FD9219 /* ViewController.m in Sources */,
 				33A6EF7F225B3AFA00FD9219 /* main.m in Sources */,
+				3345EBF4225C6C9E00C613B3 /* ConstantMacros.m in Sources */,
 				33A6EF71225B3AF900FD9219 /* AppDelegate.m in Sources */,
+				3345EBFA225C6CE500C613B3 /* URLMacros.m in Sources */,
+				3345EBF7225C6CCE00C613B3 /* NotificationMacros.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +635,7 @@
 		};
 		33A6EF99225B3AFA00FD9219 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEED07B9F3E886EF5BDA9F5 /* Pods-MSCommonProj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +652,7 @@
 		};
 		33A6EF9A225B3AFA00FD9219 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DE678312A32186E9953F87 /* Pods-MSCommonProj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
