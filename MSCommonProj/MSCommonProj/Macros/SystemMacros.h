@@ -53,11 +53,11 @@
 
 
 /* AppDelegate **/
-#define AppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+#define MSAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
 /* 通知中心 **/
-#define NotificationCenterInstance [NSNotificationCenter defaultCenter]
+#define MSNotificationCenterInstance [NSNotificationCenter defaultCenter]
 /* userDefaullt **/
-#define UserDefaults [NSUserDefaults standardUserDefaults]
+#define MSUserDefaults [NSUserDefaults standardUserDefaults]
 
 
 /* AppCaches 文件夹路径 **/

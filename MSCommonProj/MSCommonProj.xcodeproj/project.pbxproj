@@ -10,6 +10,21 @@
 		3345EBF4225C6C9E00C613B3 /* ConstantMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EBF3225C6C9E00C613B3 /* ConstantMacros.m */; };
 		3345EBF7225C6CCE00C613B3 /* NotificationMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EBF6225C6CCE00C613B3 /* NotificationMacros.m */; };
 		3345EBFA225C6CE500C613B3 /* URLMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EBF9225C6CE500C613B3 /* URLMacros.m */; };
+		3345EC1A225D91A400C613B3 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC19225D91A400C613B3 /* UIFont+Extension.m */; };
+		3345EC21225D991400C613B3 /* MSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC20225D991400C613B3 /* MSObject.m */; };
+		3345EC28225DB9F900C613B3 /* MSViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC27225DB9F900C613B3 /* MSViewModel.m */; };
+		3345EC2D225DBCBE00C613B3 /* MSHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC2C225DBCBE00C613B3 /* MSHTTPService.m */; };
+		3345EC30225DBEED00C613B3 /* MSViewModelServicesProtocolImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC2F225DBEED00C613B3 /* MSViewModelServicesProtocolImpl.m */; };
+		3345EC33225DCA8E00C613B3 /* MSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC32225DCA8E00C613B3 /* MSTableViewModel.m */; };
+		3345EC36225DCFF000C613B3 /* MSWebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC35225DCFF000C613B3 /* MSWebViewModel.m */; };
+		3345EC39225DD00500C613B3 /* MSTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC38225DD00500C613B3 /* MSTabBarViewModel.m */; };
+		3345EC3C225DD48400C613B3 /* MSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC3B225DD48400C613B3 /* MSNavigationController.m */; };
+		3345EC3F225DD49700C613B3 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC3E225DD49700C613B3 /* MSViewController.m */; };
+		3345EC42225DD4B000C613B3 /* MSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC41225DD4B000C613B3 /* MSTableViewController.m */; };
+		3345EC48225DEFF700C613B3 /* MSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC47225DEFF700C613B3 /* MSTableView.m */; };
+		339823D4226422200083F63D /* UIScrollView+MSRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 339823D3226422200083F63D /* UIScrollView+MSRefresh.m */; };
+		339823D722642CC60083F63D /* MSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339823D622642CC60083F63D /* MSWebViewController.m */; };
+		339823DA2264324C0083F63D /* UIBarButtonItem+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 339823D92264324C0083F63D /* UIBarButtonItem+MSExtension.m */; };
 		33A6EF71225B3AF900FD9219 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF70225B3AF900FD9219 /* AppDelegate.m */; };
 		33A6EF74225B3AF900FD9219 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF73225B3AF900FD9219 /* ViewController.m */; };
 		33A6EF77225B3AF900FD9219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A6EF75225B3AF900FD9219 /* Main.storyboard */; };
@@ -18,6 +33,7 @@
 		33A6EF7F225B3AFA00FD9219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF7E225B3AFA00FD9219 /* main.m */; };
 		33A6EF89225B3AFA00FD9219 /* MSCommonProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF88225B3AFA00FD9219 /* MSCommonProjTests.m */; };
 		33A6EF94225B3AFA00FD9219 /* MSCommonProjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EF93225B3AFA00FD9219 /* MSCommonProjUITests.m */; };
+		C6BA7FE97937F4F983DA321C /* libPods-MSCommonProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22282822EF9027A25CFA945A /* libPods-MSCommonProj.a */; };
 		FC308B5ADF8F41F5A237E5D5 /* libPods-MSCommonProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFD7865B61DE3D556CF7D2C /* libPods-MSCommonProj.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		09DE678312A32186E9953F87 /* Pods-MSCommonProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSCommonProj.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSCommonProj/Pods-MSCommonProj.release.xcconfig"; sourceTree = "<group>"; };
+		22282822EF9027A25CFA945A /* libPods-MSCommonProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSCommonProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3345EBF1225C6B7600C613B3 /* EnumMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumMacros.h; sourceTree = "<group>"; };
 		3345EBF2225C6C9E00C613B3 /* ConstantMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantMacros.h; sourceTree = "<group>"; };
 		3345EBF3225C6C9E00C613B3 /* ConstantMacros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstantMacros.m; sourceTree = "<group>"; };
@@ -48,6 +65,40 @@
 		3345EBF8225C6CE500C613B3 /* URLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
 		3345EBF9225C6CE500C613B3 /* URLMacros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLMacros.m; sourceTree = "<group>"; };
 		3345EBFB225C6E4200C613B3 /* AppKeyMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppKeyMacros.h; sourceTree = "<group>"; };
+		3345EC18225D91A400C613B3 /* UIFont+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		3345EC19225D91A400C613B3 /* UIFont+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+		3345EC1F225D991400C613B3 /* MSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSObject.h; sourceTree = "<group>"; };
+		3345EC20225D991400C613B3 /* MSObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSObject.m; sourceTree = "<group>"; };
+		3345EC22225D9D3900C613B3 /* MSNavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSNavigationProtocol.h; sourceTree = "<group>"; };
+		3345EC25225D9EBE00C613B3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3345EC26225DB9F900C613B3 /* MSViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewModel.h; sourceTree = "<group>"; };
+		3345EC27225DB9F900C613B3 /* MSViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewModel.m; sourceTree = "<group>"; };
+		3345EC2A225DBB9B00C613B3 /* MSViewModelServicesProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewModelServicesProtocol.h; sourceTree = "<group>"; };
+		3345EC2B225DBCBE00C613B3 /* MSHTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSHTTPService.h; sourceTree = "<group>"; };
+		3345EC2C225DBCBE00C613B3 /* MSHTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSHTTPService.m; sourceTree = "<group>"; };
+		3345EC2E225DBEED00C613B3 /* MSViewModelServicesProtocolImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewModelServicesProtocolImpl.h; sourceTree = "<group>"; };
+		3345EC2F225DBEED00C613B3 /* MSViewModelServicesProtocolImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewModelServicesProtocolImpl.m; sourceTree = "<group>"; };
+		3345EC31225DCA8E00C613B3 /* MSTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTableViewModel.h; sourceTree = "<group>"; };
+		3345EC32225DCA8E00C613B3 /* MSTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTableViewModel.m; sourceTree = "<group>"; };
+		3345EC34225DCFF000C613B3 /* MSWebViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSWebViewModel.h; sourceTree = "<group>"; };
+		3345EC35225DCFF000C613B3 /* MSWebViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSWebViewModel.m; sourceTree = "<group>"; };
+		3345EC37225DD00500C613B3 /* MSTabBarViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTabBarViewModel.h; sourceTree = "<group>"; };
+		3345EC38225DD00500C613B3 /* MSTabBarViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTabBarViewModel.m; sourceTree = "<group>"; };
+		3345EC3A225DD48400C613B3 /* MSNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSNavigationController.h; sourceTree = "<group>"; };
+		3345EC3B225DD48400C613B3 /* MSNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSNavigationController.m; sourceTree = "<group>"; };
+		3345EC3D225DD49700C613B3 /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		3345EC3E225DD49700C613B3 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		3345EC40225DD4B000C613B3 /* MSTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTableViewController.h; sourceTree = "<group>"; };
+		3345EC41225DD4B000C613B3 /* MSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTableViewController.m; sourceTree = "<group>"; };
+		3345EC46225DEFF700C613B3 /* MSTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTableView.h; sourceTree = "<group>"; };
+		3345EC47225DEFF700C613B3 /* MSTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTableView.m; sourceTree = "<group>"; };
+		339823D122641D6B0083F63D /* ConfigMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigMacros.h; sourceTree = "<group>"; };
+		339823D2226422200083F63D /* UIScrollView+MSRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MSRefresh.h"; sourceTree = "<group>"; };
+		339823D3226422200083F63D /* UIScrollView+MSRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MSRefresh.m"; sourceTree = "<group>"; };
+		339823D522642CC60083F63D /* MSWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSWebViewController.h; sourceTree = "<group>"; };
+		339823D622642CC60083F63D /* MSWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSWebViewController.m; sourceTree = "<group>"; };
+		339823D82264324C0083F63D /* UIBarButtonItem+MSExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MSExtension.h"; sourceTree = "<group>"; };
+		339823D92264324C0083F63D /* UIBarButtonItem+MSExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MSExtension.m"; sourceTree = "<group>"; };
 		33A6EF6C225B3AF900FD9219 /* MSCommonProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSCommonProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A6EF6F225B3AF900FD9219 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33A6EF70225B3AF900FD9219 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC308B5ADF8F41F5A237E5D5 /* libPods-MSCommonProj.a in Frameworks */,
+				C6BA7FE97937F4F983DA321C /* libPods-MSCommonProj.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +209,7 @@
 		33A6EFA1225B3C5800FD9219 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22282822EF9027A25CFA945A /* libPods-MSCommonProj.a */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -182,6 +235,8 @@
 		33A6EFA4225B3C7300FD9219 /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
+				3345EC2B225DBCBE00C613B3 /* MSHTTPService.h */,
+				3345EC2C225DBCBE00C613B3 /* MSHTTPService.m */,
 			);
 			path = HTTP;
 			sourceTree = "<group>";
@@ -189,7 +244,9 @@
 		33A6EFA5225B3C7A00FD9219 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				3345EC25225D9EBE00C613B3 /* PrefixHeader.pch */,
 				33A6EFB1225B3E4300FD9219 /* SystemMacros.h */,
+				339823D122641D6B0083F63D /* ConfigMacros.h */,
 				3345EBF1225C6B7600C613B3 /* EnumMacros.h */,
 				3345EBFB225C6E4200C613B3 /* AppKeyMacros.h */,
 				3345EBF2225C6C9E00C613B3 /* ConstantMacros.h */,
@@ -242,6 +299,12 @@
 		33A6EFAA225B3CC000FD9219 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3345EC18225D91A400C613B3 /* UIFont+Extension.h */,
+				3345EC19225D91A400C613B3 /* UIFont+Extension.m */,
+				339823D2226422200083F63D /* UIScrollView+MSRefresh.h */,
+				339823D3226422200083F63D /* UIScrollView+MSRefresh.m */,
+				339823D82264324C0083F63D /* UIBarButtonItem+MSExtension.h */,
+				339823D92264324C0083F63D /* UIBarButtonItem+MSExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -249,6 +312,10 @@
 		33A6EFAB225B3CC700FD9219 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				3345EC22225D9D3900C613B3 /* MSNavigationProtocol.h */,
+				3345EC2A225DBB9B00C613B3 /* MSViewModelServicesProtocol.h */,
+				3345EC2E225DBEED00C613B3 /* MSViewModelServicesProtocolImpl.h */,
+				3345EC2F225DBEED00C613B3 /* MSViewModelServicesProtocolImpl.m */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -263,6 +330,14 @@
 		33A6EFAD225B3D3300FD9219 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3345EC3A225DD48400C613B3 /* MSNavigationController.h */,
+				3345EC3B225DD48400C613B3 /* MSNavigationController.m */,
+				3345EC3D225DD49700C613B3 /* MSViewController.h */,
+				3345EC3E225DD49700C613B3 /* MSViewController.m */,
+				3345EC40225DD4B000C613B3 /* MSTableViewController.h */,
+				3345EC41225DD4B000C613B3 /* MSTableViewController.m */,
+				339823D522642CC60083F63D /* MSWebViewController.h */,
+				339823D622642CC60083F63D /* MSWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -270,6 +345,14 @@
 		33A6EFAE225B3D3F00FD9219 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3345EC26225DB9F900C613B3 /* MSViewModel.h */,
+				3345EC27225DB9F900C613B3 /* MSViewModel.m */,
+				3345EC31225DCA8E00C613B3 /* MSTableViewModel.h */,
+				3345EC32225DCA8E00C613B3 /* MSTableViewModel.m */,
+				3345EC34225DCFF000C613B3 /* MSWebViewModel.h */,
+				3345EC35225DCFF000C613B3 /* MSWebViewModel.m */,
+				3345EC37225DD00500C613B3 /* MSTabBarViewModel.h */,
+				3345EC38225DD00500C613B3 /* MSTabBarViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -277,6 +360,8 @@
 		33A6EFAF225B3D4500FD9219 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3345EC46225DEFF700C613B3 /* MSTableView.h */,
+				3345EC47225DEFF700C613B3 /* MSTableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -284,6 +369,8 @@
 		33A6EFB0225B3D4C00FD9219 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3345EC1F225D991400C613B3 /* MSObject.h */,
+				3345EC20225D991400C613B3 /* MSObject.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -316,6 +403,7 @@
 				33A6EF68225B3AF900FD9219 /* Sources */,
 				33A6EF69225B3AF900FD9219 /* Frameworks */,
 				33A6EF6A225B3AF900FD9219 /* Resources */,
+				6221793DC5BE38DB9834E58E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -368,6 +456,7 @@
 		33A6EF64225B3AF900FD9219 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MS;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Liven;
 				TargetAttributes = {
@@ -432,6 +521,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6221793DC5BE38DB9834E58E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MSCommonProj/Pods-MSCommonProj-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSCommonProj/Pods-MSCommonProj-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BDB92CF4FB96D7576250C826 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,11 +574,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3345EC3C225DD48400C613B3 /* MSNavigationController.m in Sources */,
+				339823D722642CC60083F63D /* MSWebViewController.m in Sources */,
+				3345EC42225DD4B000C613B3 /* MSTableViewController.m in Sources */,
 				33A6EF74225B3AF900FD9219 /* ViewController.m in Sources */,
+				3345EC30225DBEED00C613B3 /* MSViewModelServicesProtocolImpl.m in Sources */,
+				3345EC28225DB9F900C613B3 /* MSViewModel.m in Sources */,
 				33A6EF7F225B3AFA00FD9219 /* main.m in Sources */,
+				3345EC39225DD00500C613B3 /* MSTabBarViewModel.m in Sources */,
+				3345EC2D225DBCBE00C613B3 /* MSHTTPService.m in Sources */,
+				339823D4226422200083F63D /* UIScrollView+MSRefresh.m in Sources */,
 				3345EBF4225C6C9E00C613B3 /* ConstantMacros.m in Sources */,
+				3345EC48225DEFF700C613B3 /* MSTableView.m in Sources */,
+				3345EC36225DCFF000C613B3 /* MSWebViewModel.m in Sources */,
+				3345EC21225D991400C613B3 /* MSObject.m in Sources */,
+				339823DA2264324C0083F63D /* UIBarButtonItem+MSExtension.m in Sources */,
 				33A6EF71225B3AF900FD9219 /* AppDelegate.m in Sources */,
 				3345EBFA225C6CE500C613B3 /* URLMacros.m in Sources */,
+				3345EC3F225DD49700C613B3 /* MSViewController.m in Sources */,
+				3345EC33225DCA8E00C613B3 /* MSTableViewModel.m in Sources */,
+				3345EC1A225D91A400C613B3 /* UIFont+Extension.m in Sources */,
 				3345EBF7225C6CCE00C613B3 /* NotificationMacros.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -639,14 +767,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G47ESB7RS;
+				GCC_PREFIX_HEADER = MSCommonProj/Macros/PrefixHeader.pch;
 				INFOPLIST_FILE = MSCommonProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TiantianTrade.MSCommonProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -656,14 +787,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G47ESB7RS;
+				GCC_PREFIX_HEADER = MSCommonProj/Macros/PrefixHeader.pch;
 				INFOPLIST_FILE = MSCommonProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TiantianTrade.MSCommonProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
