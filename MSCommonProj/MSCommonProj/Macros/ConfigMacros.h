@@ -10,7 +10,10 @@
 #define ConfigMacros_h
 
 #define MS_Main_BackgroudColor  ColorWithHexString(@"#fefefe")
-
 #define MS_Main_TinkColor  ColorWithHexString(@"#fefefe")
+
+#define WhiteColor [UIColor whiteColor]
+#define BlackColor [UIColor blackColor]
+#define ColorClear [UIColor clearColor]
 
 #endif /* ConfigMacros_h */

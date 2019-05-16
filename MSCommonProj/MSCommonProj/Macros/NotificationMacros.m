@@ -10,4 +10,7 @@
 
 @implementation NotificationMacros
 
+/* 切换根视图 **/
+NSString * const kSwitchRootViewControllerNotifications = @"SwitchRootViewControllerNotifications";
+
 @end

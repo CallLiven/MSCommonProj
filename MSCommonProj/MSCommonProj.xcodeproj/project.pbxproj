@@ -22,6 +22,14 @@
 		3345EC3F225DD49700C613B3 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC3E225DD49700C613B3 /* MSViewController.m */; };
 		3345EC42225DD4B000C613B3 /* MSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC41225DD4B000C613B3 /* MSTableViewController.m */; };
 		3345EC48225DEFF700C613B3 /* MSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3345EC47225DEFF700C613B3 /* MSTableView.m */; };
+		3356EE87228D053600003C4B /* MSURLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 3356EE82228D053600003C4B /* MSURLParameters.m */; };
+		3356EE88228D053600003C4B /* MSHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3356EE84228D053600003C4B /* MSHTTPResponse.m */; };
+		3356EE89228D053600003C4B /* MSKeyedSubscript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3356EE85228D053600003C4B /* MSKeyedSubscript.m */; };
+		3356EE8A228D053600003C4B /* MSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3356EE86228D053600003C4B /* MSHTTPRequest.m */; };
+		3356EE91228D080200003C4B /* MSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3356EE8D228D080200003C4B /* MSRouter.m */; };
+		3356EE92228D080200003C4B /* MSNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3356EE90228D080200003C4B /* MSNavigationControllerStack.m */; };
+		3356EE95228D0A2500003C4B /* AppDelegate+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3356EE94228D0A2500003C4B /* AppDelegate+MSExtension.m */; };
+		3356EE98228D0A4000003C4B /* AppDelegate+MSLifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3356EE97228D0A4000003C4B /* AppDelegate+MSLifeCircle.m */; };
 		339823D4226422200083F63D /* UIScrollView+MSRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 339823D3226422200083F63D /* UIScrollView+MSRefresh.m */; };
 		339823D722642CC60083F63D /* MSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339823D622642CC60083F63D /* MSWebViewController.m */; };
 		339823DA2264324C0083F63D /* UIBarButtonItem+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 339823D92264324C0083F63D /* UIBarButtonItem+MSExtension.m */; };
@@ -92,6 +100,23 @@
 		3345EC41225DD4B000C613B3 /* MSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTableViewController.m; sourceTree = "<group>"; };
 		3345EC46225DEFF700C613B3 /* MSTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTableView.h; sourceTree = "<group>"; };
 		3345EC47225DEFF700C613B3 /* MSTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTableView.m; sourceTree = "<group>"; };
+		3356EE7E228D052800003C4B /* MSHTTPServiceConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSHTTPServiceConstant.h; sourceTree = "<group>"; };
+		3356EE7F228D053600003C4B /* MSKeyedSubscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSKeyedSubscript.h; sourceTree = "<group>"; };
+		3356EE80228D053600003C4B /* MSHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHTTPResponse.h; sourceTree = "<group>"; };
+		3356EE81228D053600003C4B /* MSHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHTTPRequest.h; sourceTree = "<group>"; };
+		3356EE82228D053600003C4B /* MSURLParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSURLParameters.m; sourceTree = "<group>"; };
+		3356EE83228D053600003C4B /* MSURLParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSURLParameters.h; sourceTree = "<group>"; };
+		3356EE84228D053600003C4B /* MSHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHTTPResponse.m; sourceTree = "<group>"; };
+		3356EE85228D053600003C4B /* MSKeyedSubscript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSKeyedSubscript.m; sourceTree = "<group>"; };
+		3356EE86228D053600003C4B /* MSHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHTTPRequest.m; sourceTree = "<group>"; };
+		3356EE8D228D080200003C4B /* MSRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRouter.m; sourceTree = "<group>"; };
+		3356EE8E228D080200003C4B /* MSRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRouter.h; sourceTree = "<group>"; };
+		3356EE8F228D080200003C4B /* MSNavigationControllerStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNavigationControllerStack.h; sourceTree = "<group>"; };
+		3356EE90228D080200003C4B /* MSNavigationControllerStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNavigationControllerStack.m; sourceTree = "<group>"; };
+		3356EE93228D0A2500003C4B /* AppDelegate+MSExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MSExtension.h"; sourceTree = "<group>"; };
+		3356EE94228D0A2500003C4B /* AppDelegate+MSExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MSExtension.m"; sourceTree = "<group>"; };
+		3356EE96228D0A4000003C4B /* AppDelegate+MSLifeCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MSLifeCircle.h"; sourceTree = "<group>"; };
+		3356EE97228D0A4000003C4B /* AppDelegate+MSLifeCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MSLifeCircle.m"; sourceTree = "<group>"; };
 		339823D122641D6B0083F63D /* ConfigMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigMacros.h; sourceTree = "<group>"; };
 		339823D2226422200083F63D /* UIScrollView+MSRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MSRefresh.h"; sourceTree = "<group>"; };
 		339823D3226422200083F63D /* UIScrollView+MSRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MSRefresh.m"; sourceTree = "<group>"; };
@@ -147,6 +172,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3356EE8B228D066B00003C4B /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3356EE81228D053600003C4B /* MSHTTPRequest.h */,
+				3356EE86228D053600003C4B /* MSHTTPRequest.m */,
+				3356EE83228D053600003C4B /* MSURLParameters.h */,
+				3356EE82228D053600003C4B /* MSURLParameters.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3356EE8C228D067E00003C4B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3356EE80228D053600003C4B /* MSHTTPResponse.h */,
+				3356EE84228D053600003C4B /* MSHTTPResponse.m */,
+				3356EE7F228D053600003C4B /* MSKeyedSubscript.h */,
+				3356EE85228D053600003C4B /* MSKeyedSubscript.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		33A6EF63225B3AF900FD9219 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +220,10 @@
 		33A6EF6E225B3AF900FD9219 /* MSCommonProj */ = {
 			isa = PBXGroup;
 			children = (
+				3356EE8F228D080200003C4B /* MSNavigationControllerStack.h */,
+				3356EE90228D080200003C4B /* MSNavigationControllerStack.m */,
+				3356EE8E228D080200003C4B /* MSRouter.h */,
+				3356EE8D228D080200003C4B /* MSRouter.m */,
 				33A6EF72225B3AF900FD9219 /* ViewController.h */,
 				33A6EF73225B3AF900FD9219 /* ViewController.m */,
 				33A6EFA9225B3CA300FD9219 /* Application */,
@@ -235,8 +286,11 @@
 		33A6EFA4225B3C7300FD9219 /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
+				3356EE7E228D052800003C4B /* MSHTTPServiceConstant.h */,
 				3345EC2B225DBCBE00C613B3 /* MSHTTPService.h */,
 				3345EC2C225DBCBE00C613B3 /* MSHTTPService.m */,
+				3356EE8C228D067E00003C4B /* Response */,
+				3356EE8B228D066B00003C4B /* Request */,
 			);
 			path = HTTP;
 			sourceTree = "<group>";
@@ -292,6 +346,10 @@
 			children = (
 				33A6EF6F225B3AF900FD9219 /* AppDelegate.h */,
 				33A6EF70225B3AF900FD9219 /* AppDelegate.m */,
+				3356EE93228D0A2500003C4B /* AppDelegate+MSExtension.h */,
+				3356EE94228D0A2500003C4B /* AppDelegate+MSExtension.m */,
+				3356EE96228D0A4000003C4B /* AppDelegate+MSLifeCircle.h */,
+				3356EE97228D0A4000003C4B /* AppDelegate+MSLifeCircle.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -574,20 +632,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3356EE95228D0A2500003C4B /* AppDelegate+MSExtension.m in Sources */,
+				3356EE91228D080200003C4B /* MSRouter.m in Sources */,
 				3345EC3C225DD48400C613B3 /* MSNavigationController.m in Sources */,
 				339823D722642CC60083F63D /* MSWebViewController.m in Sources */,
+				3356EE92228D080200003C4B /* MSNavigationControllerStack.m in Sources */,
 				3345EC42225DD4B000C613B3 /* MSTableViewController.m in Sources */,
 				33A6EF74225B3AF900FD9219 /* ViewController.m in Sources */,
 				3345EC30225DBEED00C613B3 /* MSViewModelServicesProtocolImpl.m in Sources */,
 				3345EC28225DB9F900C613B3 /* MSViewModel.m in Sources */,
+				3356EE89228D053600003C4B /* MSKeyedSubscript.m in Sources */,
+				3356EE88228D053600003C4B /* MSHTTPResponse.m in Sources */,
 				33A6EF7F225B3AFA00FD9219 /* main.m in Sources */,
+				3356EE87228D053600003C4B /* MSURLParameters.m in Sources */,
 				3345EC39225DD00500C613B3 /* MSTabBarViewModel.m in Sources */,
 				3345EC2D225DBCBE00C613B3 /* MSHTTPService.m in Sources */,
 				339823D4226422200083F63D /* UIScrollView+MSRefresh.m in Sources */,
 				3345EBF4225C6C9E00C613B3 /* ConstantMacros.m in Sources */,
+				3356EE8A228D053600003C4B /* MSHTTPRequest.m in Sources */,
 				3345EC48225DEFF700C613B3 /* MSTableView.m in Sources */,
 				3345EC36225DCFF000C613B3 /* MSWebViewModel.m in Sources */,
 				3345EC21225D991400C613B3 /* MSObject.m in Sources */,
+				3356EE98228D0A4000003C4B /* AppDelegate+MSLifeCircle.m in Sources */,
 				339823DA2264324C0083F63D /* UIBarButtonItem+MSExtension.m in Sources */,
 				33A6EF71225B3AF900FD9219 /* AppDelegate.m in Sources */,
 				3345EBFA225C6CE500C613B3 /* URLMacros.m in Sources */,

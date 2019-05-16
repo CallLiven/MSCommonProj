@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NotificationMacros : NSObject
 
+/* 切换根视图 **/
+extern NSString * const kSwitchRootViewControllerNotifications;
+
 @end
 
 NS_ASSUME_NONNULL_END

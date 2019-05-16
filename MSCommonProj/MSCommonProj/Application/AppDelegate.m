@@ -7,45 +7,68 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate+MSExtension.h"
+#import "AppDelegate+MSLifeCircle.h"
+
+#import "MSViewModel.h"
 
 @interface AppDelegate ()
-
+/* 管理导航栏的堆栈 **/
+@property (nonatomic, strong, readwrite) MSNavigationControllerStack *navigationControllerStack;
+/* 跳转管理 **/
+@property (nonatomic, strong, readwrite) MSViewModelServicesProtocolImpl *services;
 @end
+
+
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self addNotification];
+    self.services = [[MSViewModelServicesProtocolImpl alloc]init];
+    self.navigationControllerStack = [[MSNavigationControllerStack alloc]initWithServices:self.services];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = WhiteColor;
+    [self.services resetRootViewModel:[self initialViewModel]];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+
+/**
+ 获取ViewModel
+
+ @return viewModel
+ */
+- (MSViewModel *)initialViewModel {
+    return [[MSViewModel alloc]initWithServices:self.services params:@{}];
 }
 
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+/**
+ 添加监听
+ 
+ */
+- (void)addNotification {
+    [[MSNotificationCenterInstance rac_addObserverForName:kSwitchRootViewControllerNotifications object:nil] subscribeNext:^(id x) {
+        [self.services resetRootViewModel:[self initialViewModel]];
+    }];
 }
 
 
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+/**
+ 获取 delegate
+
+ @return delegate
+ */
++ (AppDelegate *)shareDelegate {
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
 
 
 @end

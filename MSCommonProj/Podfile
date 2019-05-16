@@ -1,0 +1,41 @@
+platform:ios,'8.0'
+
+target 'MSCommonProj'do
+    
+    # YYKit
+    pod 'YYModel'
+    pod 'YYCategories'
+    pod 'YYText'
+    pod 'YYWebImage'
+    pod 'YYImage'
+    pod 'YYImage/WebP'
+    pod 'YYCache'
+    
+    # 模型
+    pod 'MJExtension'
+
+    # RAC
+    pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+
+    # 网络请求
+    pod 'AFNetworking'
+    
+    # 数据库操作
+    pod 'FMDB'
+    
+    # HUD
+    pod 'MBProgressHUD'
+    
+    # 布局
+    pod 'Masonry'
+    
+    #上下拉加载
+    pod 'MJRefresh'
+    
+    # 键盘管理
+    pod 'IQKeyboardManager'
+    
+    # 侧滑手势
+    pod 'FDFullscreenPopGesture'
+    
+end
